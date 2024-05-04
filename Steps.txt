@@ -1,3 +1,5 @@
+Note: Extract Code which having inside compress zip file named santiment-code.zip
+
 1-	Create ECR for Docker Images
 2-	Create Docker Image in Local EC2 using DockerFile
 3-	Run Docker Container in Local for Demo purpose then delete that container
