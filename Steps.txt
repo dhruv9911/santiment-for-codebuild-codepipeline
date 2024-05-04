@@ -1,0 +1,30 @@
+1-	Create ECR for Docker Images
+2-	Create Docker Image in Local EC2 using DockerFile
+3-	Run Docker Container in Local for Demo purpose then delete that container
+4-	Assign Tagging to Docker Image as per Instruction given in ECR Repo 
+5- 	Push that Docker Image to ECR
+6- 	Create a ECS Cluster for deploy same Application inside AWS ECS
+7-	Create TASK-Definition and add that DockerImage 
+8-	Run Service in side Cluster with 2-Task
+9-	Update IAM Role which is attached for adding ECR access policy
+10-	Access your Docker application which deploy inside ECS using TASK public IP
+11-	Update Service and Run only one TASK
+12-	Create CodeCommit Repo 
+13-	Create a User and assigned him CodeCommit full Access
+14- 	Generate CodeCommit credential for that User to Push the code from EC2 to CodeCommit
+15-	Create a Codebuild for the same 
+16-	Run CodeBuild Manually and show it will create DockerImage and push to ECR & Show the logs
+17-	Create a CodePipeline for automate this process
+18-	Update Codebuild IAM policy for S3 access permission in codebuild IAM role
+19-	Modify the code and show pipeline trigger automatically
+20-	Every time you need to access new Container TASK Public IP for access your application
+21-	Create Target-Group(POrt No-80) and Application LB for shoot out this issue
+22-	Again change the code and access application this time using ELB DNS
+23-	Create a SNS Topic and modify its permission for MANUAL_APPROVAL
+24-	Adding one extra stage in pipeline for MANUAL-APPROVAL
+25-	Change the code for show MANUAL-APPROVAL use case
+26-	Create one more SNS TOPIC for CodePipeline Notification and modify SNS access policy for the same
+27-	Configure Notification in SNS Topic 
+28-	Modify the code for showing Codepipeline Notification emails 
+29-	Delete all Resources
+	
